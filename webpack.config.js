@@ -69,6 +69,6 @@ module.exports = {
   serviceworker: {
     entry: config.serviceworker.entry(),
     output: config.serviceworker.output(),
-    mode: process.env.NODE_ENV,
+    mode: process.env.NODE_ENV
   }
 };
